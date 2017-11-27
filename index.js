@@ -3,7 +3,7 @@ function BoardMember(name, homeState, training){
   this.homeState = homeState;
   this.training = training;
   this.approve = function(){
-    console.log("You can do that!");
+    return "You can do that!";
   }
   this.doCharity = function(){
     console.log("I like to help people.");
